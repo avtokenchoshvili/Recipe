@@ -1,0 +1,77 @@
+<h1>{{ recipeForm.get("id")?.value ? "Edit" : "Add" }} Recipe</h1>
+<mat-card class="recipe-form-card">
+  <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()" class="recipe-form">
+    <mat-form-field appearance="outline" class="recipe-form-field">
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="recipe-form-field">
+      <mat-label>Description</mat-label>
+      <textarea
+        matInput
+        formControlName="shortDescription"
+        matTextareaAutosize
+        matAutosizeMinRows="2"
+        matAutosizeMaxRows="5"
+      ></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="recipe-form-field">
+      <mat-label>Ingredients</mat-label>
+      <textarea
+        matInput
+        formControlName="ingredients"
+        matTextareaAutosize
+        matAutosizeMinRows="2"
+        matAutosizeMaxRows="5"
+      ></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="recipe-form-field">
+      <mat-label>Instructions</mat-label>
+      <textarea
+        matInput
+        formControlName="instructions"
+        matTextareaAutosize
+        matAutosizeMinRows="2"
+        matAutosizeMaxRows="5"
+      ></textarea>
+    </mat-form-field>
+
+    <div class="file-input-container">
+      <input
+        type="file"
+        (change)="onFileSelected($event)"
+        id="thumbnail"
+        #fileInput
+        hidden
+      />
+      @if(imageBase64){
+      <div class="image-preview">
+        <img [src]="imageBase64" alt="Thumbnail preview" />
+      </div>
+
+      }
+      <button
+        mat-stroked-button
+        color="primary"
+        type="button"
+        (click)="fileInput.click()"
+        class="upload-btn"
+      >
+        {{ imageBase64 ? "Change" : "Upload" }} Thumbnail
+      </button>
+    </div>
+
+    <button
+      mat-raised-button
+      color="primary"
+      type="submit"
+      [disabled]="!recipeForm.valid"
+      class="submit-btn"
+    >
+      {{ recipeForm.get("id")?.value ? "Update" : "Submit" }}
+    </button>
+  </form>
+</mat-card>

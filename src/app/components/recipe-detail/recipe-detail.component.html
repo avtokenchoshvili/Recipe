@@ -1,0 +1,43 @@
+<main>
+  @if( detailRecipeData$ | async; as recipe ){
+
+  <div>
+    <img [src]="recipe.thumbnailImage" alt="omelette" />
+  </div>
+  <section>
+    <div>
+      <h1>{{ recipe.title }}</h1>
+      <p>
+        {{ recipe.shortDescription }}
+      </p>
+    </div>
+    <div class="preparation-time">
+      <h2>Preparation time</h2>
+      <ul>
+        <li><span>Total: </span>Approximately 10 minutes</li>
+        <li><span>Preparation: </span>5 minutes</li>
+        <li><span>Cooking: </span>5 minutes</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>{{ recipe.ingredients }}</li>
+    </ul>
+  </section>
+
+  <hr />
+
+  <section>
+    <h2>Instructions</h2>
+    <ol>
+      <li>
+        <p>{{ recipe.instructions }}</p>
+      </li>
+    </ol>
+  </section>
+
+  <hr />
+  }
+</main>

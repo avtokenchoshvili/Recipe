@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.recipe-form-card {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.recipe-form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.recipe-form-field {
+  width: 100%; /* Ensures form fields take full width */
+}
+
+.file-input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.upload-btn {
+  margin-top: 20px; /* Adds some space above the upload button */
+}
+
+.submit-btn {
+  width: 100%;
+  height: 30px; /* Makes the submit button full width */
+}
+
+.image-preview img {
+  display: block;
+  margin: auto;
+  width: 100px; /* or any specific size */
+  height: auto;
+}

@@ -1,0 +1,56 @@
+<div class="search-center">
+  <div class="search-container">
+    <i class="fas fa-search search-icon"></i>
+    <input
+      type="text"
+      [(ngModel)]="searchTerm"
+      placeholder="Search recipes..."
+      (keyup)="filterRecipes()"
+      class="search-input"
+    />
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-container">
+    @for(recipe of filteredRecipes ;track recipe.id ){
+
+    <div class="main" style="width: 400px">
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <fa-icon
+              [icon]="recipe.isFavorite ? fasFaHeart : farFaHeart"
+              [class.favorite]="recipe.isFavorite"
+              [class.not-favorite]="!recipe.isFavorite"
+              (click)="toggleFavorite(recipe)"
+            ></fa-icon>
+            <div class="card_content">
+              <h2 class="card_title">{{ recipe.title }}</h2>
+              <a [routerLink]="['/recipe', recipe.id]">
+                <div class="card_image">
+                  <img
+                    [src]="recipe.thumbnailImage"
+                    alt="mixed vegetable salad in a mason jar. "
+                  />
+                </div>
+              </a>
+              <div class="card_text">
+                <p>
+                  {{ recipe.shortDescription }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="buttons">
+        <button [routerLink]="['/edit-recipe', recipe.id]">Edit</button>
+        <button (click)="deleteRecipe(recipe.id)">Delete</button>
+      </div>
+    </div>
+
+    }
+  </div>
+</div>

@@ -1,0 +1,179 @@
+{
+  "Recipes": [
+    {
+      "id": "1",
+      "title": "Classic Spaghetti Carbonara",
+      "shortDescription": "A quick and easy Italian pasta dish using eggs, cheese, and bacon.",
+      "thumbnailImage": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-superJumbo-v2.jpg",
+      "isFavorite": true,
+      "ingredients": [
+        "400g spaghetti",
+        "2 large eggs",
+        "100g pancetta",
+        "50g pecorino cheese",
+        "50g parmesan",
+        "Garlic clove, peeled and left whole",
+        "50g unsalted butter",
+        "Salt and pepper, to taste"
+      ],
+      "instructions": "Cook the spaghetti. Beat the eggs with the pecorino and parmesan. Fry the pancetta with garlic. Remove garlic and mix everything together with some butter."
+    },
+    {
+      "id": "2",
+      "title": "Vegetarian Chili",
+      "shortDescription": "A hearty, spicy chili that's perfect for a cold day.",
+      "thumbnailImage": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F9fff417ed363c61374bb3a2523683b9949b51fb9",
+      "isFavorite": true,
+      "ingredients": [
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "2 bell peppers, chopped",
+        "3 garlic cloves, minced",
+        "2 tablespoons chili powder",
+        "2 teaspoons ground cumin",
+        "1 can black beans, drained",
+        "1 can kidney beans, drained",
+        "1 can fire-roasted tomatoes",
+        "Salt and pepper, to taste"
+      ],
+      "instructions": "Heat oil and add onion, peppers, and garlic. Stir in spices, then add beans and tomatoes. Simmer for 30 minutes. Season with salt and pepper."
+    },
+    {
+      "id": "3",
+      "title": "Classic Beef Stew",
+      "shortDescription": "Warm and comforting beef stew with vegetables.",
+      "thumbnailImage": "https://hips.hearstapps.com/hmg-prod/images/beef-stew-index-652e94c53b39b.jpg?crop=0.8891301070405547xw:1xh;center,top&resize=1200:*",
+      "isFavorite": false,
+      "ingredients": [
+        "2 lbs beef stew meat, cut into 1-inch pieces",
+        "1/4 cup all-purpose flour",
+        "2 cups beef broth",
+        "1 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "2 tablespoons vegetable oil",
+        "1 onion, chopped",
+        "2 cups baby carrots",
+        "1 pound potatoes, diced",
+        "1 teaspoon thyme"
+      ],
+      "instructions": "Toss beef in flour, salt, and pepper. Brown in oil. Add onions and broth. Cover and simmer for 1 hour. Add vegetables and thyme; cook until tender."
+    },
+    {
+      "id": "4",
+      "title": "Lemon Garlic Roasted Chicken",
+      "shortDescription": "A flavorful roasted chicken dish with a lemon garlic sauce.",
+      "thumbnailImage": "https://img.taste.com.au/0ugbtOIw/taste/2016/11/lemon-garlic-roast-chicken-95420-1.jpeg",
+      "isFavorite": false,
+      "ingredients": [
+        "1 whole chicken (about 4-5 lbs)",
+        "Salt and pepper, to taste",
+        "4 garlic cloves, minced",
+        "1 lemon, halved",
+        "2 tablespoons olive oil",
+        "1 teaspoon paprika"
+      ],
+      "instructions": "Season chicken with salt, pepper, and paprika. Stuff with lemon and garlic. Roast at 425°F for 1.5 hours. Baste with olive oil halfway through."
+    },
+    {
+      "id": "5",
+      "title": "Avocado Toast",
+      "shortDescription": "A simple and healthy avocado toast perfect for breakfast.",
+      "thumbnailImage": "https://www.eatingwell.com/thmb/CTSAuY2CRbo0Ivw4wbfIydhy7Qw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1807w-avocado-toast-recipe-8029771-2000-aefaa92c11e74e80b0bfc15788a61465.jpg",
+      "isFavorite": false,
+      "ingredients": [
+        "2 slices of bread, toasted",
+        "1 ripe avocado",
+        "Salt and pepper, to taste",
+        "Red pepper flakes, optional",
+        "2 eggs, poached or fried, optional"
+      ],
+      "instructions": "Mash avocado with salt and pepper. Spread on toasted bread. Add red pepper flakes. Top with eggs if desired."
+    },
+    {
+      "id": "6",
+      "title": "Chicken Caesar Salad",
+      "shortDescription": "A classic Caesar salad with grilled chicken breast.",
+      "thumbnailImage": "https://www.spendwithpennies.com/wp-content/uploads/2021/04/FT-Chicken-Caesar-Salad-SpendWithPennies-4.jpg",
+      "isFavorite": true,
+      "ingredients": [
+        "2 boneless chicken breasts",
+        "Salt and pepper, to taste",
+        "4 cups romaine lettuce, chopped",
+        "1/2 cup Caesar dressing",
+        "1/4 cup grated Parmesan cheese",
+        "Croutons, for garnish"
+      ],
+      "instructions": "Season chicken with salt and pepper, grill until cooked. Toss lettuce with dressing and Parmesan. Top with sliced chicken and croutons."
+    },
+    {
+      "id": "7",
+      "title": "Butternut Squash Soup",
+      "shortDescription": "A creamy, comforting butternut squash soup.",
+      "thumbnailImage": "https://www.wellplated.com/wp-content/uploads/2023/08/Best-Butternut-Squash-Soup-Recipe.jpg",
+      "isFavorite": true,
+      "ingredients": [
+        "1 butternut squash, peeled and cubed",
+        "2 tablespoons olive oil",
+        "1 onion, chopped",
+        "1 apple, chopped",
+        "4 cups vegetable broth",
+        "Salt and pepper, to taste",
+        "1/2 cup heavy cream, optional"
+      ],
+      "instructions": "Roast squash until tender. Sauté onion and apple. Blend squash, onion, apple, and broth until smooth. Season with salt and pepper. Stir in cream if using."
+    },
+    {
+      "id": "8",
+      "title": "Quinoa Salad",
+      "shortDescription": "A light and refreshing quinoa salad with vegetables and a lemon vinaigrette.",
+      "thumbnailImage": "https://cdn.loveandlemons.com/wp-content/uploads/2020/08/quinoa-salad.jpg",
+      "isFavorite": true,
+      "ingredients": [
+        "1 cup quinoa",
+        "2 cups water",
+        "1 cucumber, diced",
+        "1 bell pepper, diced",
+        "1/4 cup red onion, minced",
+        "1/4 cup parsley, chopped",
+        "3 tablespoons olive oil",
+        "2 tablespoons lemon juice",
+        "Salt and pepper, to taste"
+      ],
+      "instructions": "Cook quinoa in water. Let cool. Mix with vegetables. Whisk olive oil, lemon juice, salt, and pepper. Pour over salad."
+    },
+    {
+      "id": "9",
+      "title": "Chocolate Chip Cookies",
+      "shortDescription": "Classic chewy chocolate chip cookies.",
+      "thumbnailImage": "https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg",
+      "isFavorite": false,
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1/2 teaspoon baking soda",
+        "1 cup unsalted butter, room temperature",
+        "1/2 cup granulated sugar",
+        "1 cup packed brown sugar",
+        "1 teaspoon salt",
+        "2 teaspoons vanilla extract",
+        "2 large eggs",
+        "2 cups chocolate chips"
+      ],
+      "instructions": "Whisk flour and baking soda. Beat butter and sugars. Add salt, vanilla, and eggs. Mix in flour. Fold in chocolate chips. Bake at 375°F for 10 minutes."
+    },
+    {
+      "id": "10",
+      "title": "Margarita Pizza",
+      "shortDescription": "A simple yet delicious Margarita pizza with fresh mozzarella and basil.",
+      "thumbnailImage": "https://ohsweetbasil.com/wp-content/uploads/four-cheese-margherita-pizza-recipe-12-scaled.jpg",
+      "isFavorite": false,
+      "ingredients": [
+        "Pizza dough",
+        "1/2 cup tomato sauce",
+        "8 ounces fresh mozzarella, sliced",
+        "Fresh basil leaves",
+        "Salt and olive oil, to taste"
+      ],
+      "instructions": "Spread sauce on dough. Top with mozzarella. Bake at 475°F until crust is golden. Garnish with basil, salt, and olive oil."
+    }
+  ]
+}
